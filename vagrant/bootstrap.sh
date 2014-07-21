@@ -12,7 +12,7 @@ cd statsd/
 #service elasticsearch start
 #sh /opt/statsd/node_modules/statsd-elasticsearch-backend/es-index-template.sh
 #/usr/share/elasticsearch/bin/plugin 
-apt-get install mysql
+apt-get install mysql-server mysql-client
 
 
 
